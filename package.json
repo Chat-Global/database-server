@@ -1,7 +1,7 @@
 {
-	"name": "chat-global-db",
+	"name": "chat-global-db-client",
 	"version": "1.0.0",
-	"description": "Chat Global DataBase",
+	"description": "Chat Global DataBase Client",
 	"main": "src/index",
 	"scripts": {
 		"start": "ts-node src/index"
@@ -11,9 +11,7 @@
 	"license": "ISC",
 	"dependencies": {
 		"dotenv": "^10.0.0",
-		"express": "^4.17.1",
-		"quick.db": "^7.1.3",
-		"socket.io": "^4.3.1"
+		"socket.io-client": "^4.4.0"
 	},
 	"devDependencies": {
 		"@types/node": "^16.11.9",
